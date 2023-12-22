@@ -1,0 +1,102 @@
+/* Reset some default styles */
+body, h1{
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color for the body */
+body {
+    background-color: #e0e9f1; /* Light blue background color */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #007bff; /* Bootstrap's primary blue color */
+}
+
+/* Style the navbar brand */
+.navbar-brand {
+    color: #ffffff !important; /* White text color */
+}
+
+
+/* Changes the color of the active link */
+.navbar-nav .nav-link.active {
+    color: #f8f9fa !important; /* Light gray text color */
+    
+}
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White text color */
+    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+/* Change the color of the navbar links on hover */
+.navbar-nav .nav-link:hover {
+    color: #6c757d !important; /* Bootstrap's secondary gray color */
+    background-color: rgb(12, 11, 73);
+}
+
+/* Style the container with text centering */
+.container.text-center {
+    padding: 50px 0;
+}
+
+/* Style the heading */
+h1 {
+    color: #007bff; /* Bootstrap's primary blue color */
+    background-color: #104074;
+    border-radius: 10px;
+    padding: 20px;
+    border-style: outset;
+}
+
+h2{
+    margin-left: 300px;
+
+}
+
+/* Style the links in the card */
+.card a {
+    color: #007bff; /* Bootstrap's primary blue color */
+}
+
+/* Style the card text */
+.card-text {
+    color: #333; /* Dark text color */
+}
+
+/* Style the card image */
+.card-img-top {
+    border-bottom: 1px solid #dee2e6; /* Light gray border */
+}
+
+/* Style the card body */
+.card-body {
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+/* Style the container fluid */
+.container-fluid {
+    padding: 20px 0;
+}
+
+/* Style the card container */
+.col-md {
+    margin-bottom: 20px;
+}
+
+/*style the card text box*/
+.card-text-box{
+    text-align: center;
+    color: navy;
+}
+/* style header 3 for whole site*/
+h3{
+    background-color: #104074;
+    color: white;
+    text-align: center;
+}
+
